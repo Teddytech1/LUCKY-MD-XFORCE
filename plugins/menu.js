@@ -58,12 +58,12 @@ ezra({
 
     const infoMsg = `
 ╭───────────⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ☢️LUCKY MD X-FORCE☢️*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :  ☢️X-FORCE☢️*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ ɪs : FREDI*
+*┋* *ᴏᴡɴᴇʀ ɪs : Teddy*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰───────────⊷\n`;
     
@@ -82,7 +82,7 @@ ezra({
     }
     
     menuMsg += `
-> @made by FredieTech 2025\n`;
+> @made by Teddy 2025\n`;
 
     try {
         await zk.sendMessage(dest, { 
@@ -91,13 +91,13 @@ ezra({
             contextInfo: {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: "120363313124070136@newsletter",
-                    newsletterName: "@FrediEzra",
+                    newsletterJid: "120363412042273829@newsletter",
+                    newsletterName: "@Teddy",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "☢️LUCKY MD X-FORCE☢️",
+                    title: "☢️X-FORCE☢️",
                     body: "🔑🗝️ Command List",
                     thumbnailUrl: "https://files.catbox.moe/3o37c5.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
